@@ -26,3 +26,8 @@ friends_ages.remove(["Guilherme", 28])
 
 print(friends)
 print(friends_ages)
+
+#join lists
+bros = ["Rolf", "Bruno", "Charles"]
+comma_separated = ", ".join(bros)
+print(f"My friends are {comma_separated}.")
